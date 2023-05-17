@@ -1,0 +1,217 @@
+body{
+  padding-top: 6rem;
+}
+.myNavbar {
+  padding: 1.25rem;
+  }
+.navbar-default .navbar-nav>li>a{
+  font-weight: 600;
+}
+a.active_class{
+  color:#00eaff !important; 
+  border-bottom: 2px solid #000;
+  
+}
+
+/* .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+  color:#00eaff !important;
+  background-color: transparent !important;
+ 
+} */
+.navbar-default .navbar-nav>li>a{
+color: #000;
+font-size: 0.75rem;
+  padding:0.875rem;
+text-transform: uppercase;
+text-decoration: none;
+}
+.bg.scrollup .navbar-default .nav .nav-item a{
+  color: #fff;
+}
+.navbar-default .navbar-brand{
+  padding: 0;
+  margin-left: 0 !important;
+  color: #000;
+}
+
+.bg.scrollup {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #6600ff;
+  
+}
+.bg.scrollup .navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+ .bg {
+padding: .2rem 0;
+  border: none;
+  background-color: transparent;
+  top:0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #00c9db;
+	text-decoration: none;
+}
+.header .btn-solid-lg {
+  margin-right: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.card .card img,.card .card-body{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card{
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.13);
+  transition: all.3s ease-in-out;
+}
+.card:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+}
+.card button:hover{
+  cursor: pointer;
+}
+form input{
+  width: 100%;
+  height: 40px;
+}
+.main_div{
+  width: 300px;
+  height: 500px;
+  background-color: rgb(247, 242, 242);
+  border-radius: 15px;
+  overflow-y: auto;
+}
+.main_div h1{
+  background-color:  #8566aa;
+  color: #ffffff;
+}
+.main_div input{
+  background-color:transparent;
+  border: none;
+  border-bottom: 2px solid #8566aa;
+   
+}
+.main_div button{
+  border: none;
+  background: transparent;
+  width: 35px;
+    height: 35px;
+    background:#8566aa;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    font-size: 25px;
+    line-height: 0;
+}
+.main_div button:hover{
+  background-color: rgb(113, 248, 226);
+}
+.main_div button:focus ,.main_div input:focus{
+  outline: none;
+}
+.main_div .todo_style{
+  text-align: left;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin-top: 10px;
+  color:aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+}
+.todo_style .fa-times:hover{
+  background-color: crimson;
+}
+.todo_style .fa-times .list_style{
+  color: crimson;
+}
+.main_div li{
+  list-style: none;
+  display: inline-block;
+
+}
+.main_div span .deleteicon{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color:#8566aa;
+  color: aliceblue;
+  margin:10px 10px 10px 0;
+  box-shadow:  5px 5px 15px -5px(0,0,0,0,3);
+}
+.main_div span .deleteicon:hover{
+  background-color: transparent;
+  box-shadow:  5px 5px 15px -5px(0,0,0,0,5);
+  color: crimson;
+  
+}
+.main_note,.note{
+  padding: 2rem;
+  position: relative;
+}
+.main_note input{
+  font-size: 1.77rem; 
+ 
+}
+.main_note input,.main_note textarea{
+  border:none;
+}
+
+.main_note input:focus,.main_note  textarea:focus,.main_note Button:focus,.note Button:focus{
+outline: none;
+}
+.main_note textarea{
+  width: 100%;
+}
+.main_note Button,
+.note Button{
+  position: absolute;
+  width:15px;
+  border-radius: 50%;
+ bottom:-11%;
+ right:2%;
+background: #ffffff;
+transition: 0.3s all;
+
+}
+.main_note Button:hover,.note Button:hover{
+  
+  background: yellow;
+}
+.nb{
+  display: inline-block;
+
+}
+

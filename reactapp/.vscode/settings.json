@@ -1,0 +1,8 @@
+
+{
+"editor.mouseWheelZoom": true,
+"editor.wordWrap": "on",
+"emmet.includeLanguages": {
+    "javascript":"javascriptreact"
+}
+}

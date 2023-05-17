@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "vidhi patel",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "phone": "64t656",
+      "id": 1
+    },
+    {
+      "name": "mahesh",
+      "username": "mahesh dahya",
+      "email": "069mahesh@gmail.com",
+      "phone": "9427414582",
+      "id": 2
+    },
+    {
+      "name": "dev",
+      "username": "deven",
+      "email": "dev@gmal.com",
+      "phone": "9945781236",
+      "id": 3
+    },
+    {
+      "name": "dax",
+      "username": "dad@frr.com",
+      "email": "vidhipatel@gmail.com",
+      "phone": "8460398754",
+      "id": 4
+    },
+    {
+      "name": "frtryt",
+      "username": "vidhi.patel@artoon.in",
+      "email": "vidhipatel@gmail.com",
+      "phone": "1235455679",
+      "id": 5
+    },
+    {
+      "name": "hima",
+      "username": "himapatel",
+      "email": "hima@gmail.com",
+      "phone": "3214567890",
+      "id": 6
+    },
+    {
+      "name": "vidhi",
+      "username": "fdf@frf.fgu",
+      "email": "hima@gmail.com",
+      "phone": "8460398754",
+      "id": 7
+    },
+    {
+      "name": "hima",
+      "username": "vidhi.patel",
+      "email": "afr@gmail.com",
+      "phone": "1234567890",
+      "id": 8
+    },
+    {
+      "name": "grg",
+      "username": "rgr",
+      "email": "vidhipatel@gmail.com",
+      "phone": "8460398754",
+      "id": 9
+    },
+    {
+      "name": "gfgf",
+      "username": "vidhi.patel",
+      "email": "vidhipatel@gmail.com",
+      "phone": "8460398754",
+      "id": 10
+    }
+  ]
+}
